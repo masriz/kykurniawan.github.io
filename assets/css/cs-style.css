@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.cs-main-font {
+  font-family: "Work Sans", sans-serif;
+}
+
+.cs-bg-light {
+  background-color: #e4f3ff;
+}
+
+.cs-bg-dark {
+  background-color: #6ebbff;
+}
+
+header .name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 5rem;
+}
+
+section.about p {
+  font-size: 1.1rem;
+}
+
+.blog-card {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.blog-card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+}
+
+.video-card {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.video-card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+}
+
+@media (max-width: 991.98px) {
+  header {
+    padding-bottom: 5rem;
+  }
+  header .name {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header .name {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=cs-style.css.map */
